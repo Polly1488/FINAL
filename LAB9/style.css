@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.score-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.score-box {
+    background: #87CEFA;
+    padding: 15px;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.score-value {
+    font-size: 32px;
+    font-weight: bold;
+    background: #ffffffaa;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+#generate {
+    padding: 15px 35px;
+    font-size: 24px;
+    background: limegreen;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    margin-top: 10px;
+}
+
+#generate:hover {
+    background: green;
+}
+
+.cards-row {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-img {
+    width: 200px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #888;
+}
+
+#result {
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Адаптивність */
+@media (max-width: 600px) {
+    .cards-row {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .score-row {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гра 21</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="score-row">
+        <div class="score-box">
+            <h2 id="userName">User</h2>
+            <div id="userScore" class="score-value">0</div>
+        </div>
+
+        <div>
+            <p id="round">Спроба 1 з 3</p>
+            <button id="generate">Generate</button>
+        </div>
+
+        <div class="score-box">
+            <h2>Computer</h2>
+            <div id="compScore" class="score-value">0</div>
+        </div>
+    </div>
+
+    <div class="cards-row">
+        <img id="userCard" class="card-img" src="img/6.png" alt="">
+        <img id="compCard" class="card-img" src="img/6.png" alt="">
+    </div>
+
+    <h2 id="result"></h2>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
