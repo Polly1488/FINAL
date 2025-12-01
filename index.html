@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторні роботи 7–10</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container my-4">
+
+    <h2 class="text-center mb-3">Застосунки лабораторних робіт №7–10</h2>
+
+    <div class="row g-4 mb-5">
+
+        <div class="col-md-6 col-lg-3">
+            <div class="card app-card h-100">
+                <div class="card-body d-flex flex-column">
+                    <h5>Лабораторна №7</h5>
+                    <p>Магічна куля</p>
+                    <a href="LAB7/index.html" target="_blank" class="btn btn-primary mt-auto">Відкрити</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+            <div class="card app-card h-100">
+                <div class="card-body d-flex flex-column">
+                    <h5>Лабораторна №8</h5>
+                    <p>User vs Computer</p>
+                    <a href="LAB8/index.html" target="_blank" class="btn btn-primary mt-auto">Відкрити</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+            <div class="card app-card h-100">
+                <div class="card-body d-flex flex-column">
+                    <h5>Лабораторна №9</h5>
+                    <p>Гра 21</p>
+                    <a href="LAB9/index.html" target="_blank" class="btn btn-primary mt-auto">Відкрити</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+            <div class="card app-card h-100">
+                <div class="card-body d-flex flex-column">
+                    <h5>Лабораторна №10</h5>
+                    <p>Однорукий бандит</p>
+                    <a href="LAB10/index.html" target="_blank" class="btn btn-primary mt-auto">Відкрити</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <form id="labForm" class="row g-3">
+
+        <div class="col-md-4">
+            <select id="labSelect" class="form-select">
+                <option value="">Оберіть лабораторну</option>
+                <option value="LAB7/index.html">Лаб №7 — Магічна куля</option>
+                <option value="LAB8/index.html">Лаб №8 — User vs Computer</option>
+                <option value="LAB9/index.html">Лаб №9 — Гра 21</option>
+                <option value="LAB10/index.html">Лаб №10 — Однорукий бандит</option>
+            </select>
+            <div id="labError" class="text-danger d-none">Оберіть лабораторну</div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="form-check mt-2">
+                <input type="checkbox" id="confirmCheck" class="form-check-input">
+                <label for="confirmCheck" class="form-check-label">Підтверджую перехід</label>
+                <div id="confirmError" class="text-danger d-none">Підтвердіть дію</div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <button class="btn btn-success w-100">Перейти</button>
+        </div>
+
+    </form>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
