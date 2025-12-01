@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #eef2ff;
+    margin: 0;
+    padding: 20px;
+}
+
+#generateBtn {
+    padding: 15px 35px;
+    background: #72ff72;
+    font-size: 24px;
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.machine {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.col {
+    background: #6e7aa3;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.slot {
+    width: 120px;
+    height: 120px;
+    background: #aab4d7;
+    border: 3px solid #455;
+    margin-bottom: 10px;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 70px;
+}
+
+#result {
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: bold;
+}
